@@ -4,6 +4,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contacts from "./Components/Contacts";
+import LandingPage from "./Components/LandingPage"
 import "./Style/style.css";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <NavBar></NavBar>
       </header>
       <main>
+        <LandingPage></LandingPage>
         <About></About>
         <Projects></Projects>
         <Skills></Skills>

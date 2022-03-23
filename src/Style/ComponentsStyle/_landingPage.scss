@@ -1,0 +1,28 @@
+#landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 10rem 0;
+  .title {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  .icon {
+    text-align: center;
+
+  }
+  button {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 15%;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+}

@@ -1,5 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+$textColor: #ffff;
+
+//css reset
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px
+}
+
+//fade in effect
+body {
+   color: $textColor;
+   background-color: #2c2c54;
+   animation: fadeIn ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+   font-family: 'Roboto', sans-serif;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+ //header
+@import "ComponentsStyle/header";
+
+//landing page
+@import "ComponentsStyle/landingPage";
+
+//arrowButton
+@import "ComponentsStyle/arrowButton";
+
+//about
+@import "ComponentsStyle/about";
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $textColor;
+  -webkit-transition: color 0.1s;
 }
