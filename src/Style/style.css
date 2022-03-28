@@ -171,22 +171,49 @@ nav ul a:hover {
   font-size: 3rem;
 }
 #skills .container {
-  width: 1rem;
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
 }
-#skills .container .item {
-  width: 100%;
-  padding: 0.5rem;
+#skills .content-item {
+  font-size: 3rem;
+  text-align: center;
+  transition: 0.2s;
+  cursor: pointer;
 }
-#skills .container .item .content-item {
-  height: 100%;
-  display: flex;
-  padding: 1rem;
-  align-items: center;
+#skills img {
+  height: 3rem;
+}
+#skills .content-item:hover {
+  transform: scale(1.4);
+}
+#projects h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+#projects .container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  cursor: pointer;
+  margin-top: 0;
+}
+#projects .content-item {
+  font-size: 3rem;
+  text-align: center;
+  transition: 0.2s;
+  overflow-x: hidden;
+}
+#projects .hover {
+  background-color: black;
+  z-index: 1;
+}
+#projects img {
+  width: 80%;
 }
 
 ul {

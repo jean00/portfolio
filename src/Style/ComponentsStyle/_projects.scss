@@ -1,9 +1,7 @@
-#skills {
-  text-align: center;
-  
+#projects {
   h1 {
-    text-align: center;
-    font-size: 3rem;
+      text-align: center;
+      font-size: 3rem;
   }
 
   .container {
@@ -12,24 +10,24 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     gap: 20px;
+    cursor: pointer;
+    margin-top: 0;
   }
 
   .content-item {
     font-size: 3rem;
     text-align: center;
     transition: .2s;
-    cursor: pointer;
+    overflow-x: hidden;
+  
+  }
+
+  .hover {
+    background-color: black;
+    z-index: 1;
   }
 
   img {
-    height: 3rem;
-  }
-
-  .content-item:hover {
-    transform: scale(1.4);
-  }
-
-  .skillsButton {
-
+    width: 80%;
   }
 }

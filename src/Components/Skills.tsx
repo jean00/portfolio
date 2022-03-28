@@ -10,15 +10,16 @@ const Skills = () => {
           return (
             <div className="item" key={index}>
               <div className="content-item">
-                <img
-                  src={`https://img.shields.io/badge/-${e}-333333?style=flat&logo=${e}`}
-                ></img>
-                <h2> {e} </h2>
+                <i> <img src={e.url} /> </i>
+                <span>{e.name} </span>
               </div>
             </div>
           );
         })}
       </div>
+      <a href="#projects">
+        <div className="arrowButton skillsButton"></div>
+      </a>
     </section>
   );
 };

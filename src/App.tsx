@@ -16,8 +16,8 @@ const App = () => {
       <main>
         <LandingPage></LandingPage>
         <About></About>
-        <Projects></Projects>
         <Skills></Skills>
+        <Projects></Projects>
         <Contacts></Contacts>
       </main>
     </div>
