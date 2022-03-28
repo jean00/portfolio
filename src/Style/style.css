@@ -23,6 +23,10 @@ section {
   height: 100vh;
   width: 100%;
 }
+section a {
+  display: block;
+  width: 20px;
+}
 
 @keyframes fadeIn {
   0% {
@@ -65,20 +69,17 @@ nav ul a:hover {
   }
 }
 
-#landing-page {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10rem 10rem 0;
 }
-#landing-page .title {
+.container .title {
   width: 100%;
   font-size: 2rem;
 }
-#landing-page .icon {
-  text-align: center;
-}
-#landing-page button {
+.container button {
   background-color: aquamarine;
   border: none;
   border-radius: 20px;
@@ -87,25 +88,34 @@ nav ul a:hover {
   height: 40px;
   cursor: pointer;
 }
-#landing-page button:hover {
+.container button:hover {
   opacity: 0.8;
+}
+.container .landing-div-svg {
+  text-align: center;
+}
+.container .arrowDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .arrowButton {
   height: 100px;
   width: 100px;
   border: none;
-  position: absolute;
-  left: 50%;
-  bottom: 50px;
+  position: relative;
+  bottom: 0;
+  left: calc(50% + 57rem);
   cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .arrowButton::after {
   content: "";
   position: absolute;
   top: 30%;
-  left: 50%;
   border: 2px solid black;
   height: 50px;
   width: 50px;
@@ -136,13 +146,47 @@ nav ul a:hover {
     top: 90%;
   }
 }
-#about div {
+#about .text {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  margin-top: 1%;
+  z-index: -1;
 }
 #about p {
-  line-height: 2;
+  margin-top: 40px;
+  line-height: 2.5;
+  text-align: justify;
+  margin-bottom: 5%;
+  font-size: 2rem;
+}
+
+#skills {
   text-align: center;
+}
+#skills h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+#skills .container {
+  width: 1rem;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#skills .container .item {
+  width: 100%;
+  padding: 0.5rem;
+}
+#skills .container .item .content-item {
+  height: 100%;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
 }
 
 ul {

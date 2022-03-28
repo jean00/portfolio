@@ -2,17 +2,18 @@
   height: 100px;
   width: 100px;
   border: none;
-  position:absolute;
-  left: 50%;
-  bottom: 50px;
+  position: relative;
+  bottom: 0;
+  left: calc(50% + 57rem); //center the button
   cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .arrowButton::after {
   content: "";
   position: absolute;
   top: 30%;
-  left: 50%;
   border: 2px solid black;
   height: 50px;
   width: 50px;
@@ -30,18 +31,18 @@
 
 @keyframes scroll {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
 
-  30%{
-      opacity: 1;
+  30% {
+    opacity: 1;
   }
 
   60% {
     opacity: 1;
   }
 
-  100%{
+  100% {
     opacity: 0;
     top: 90%;
   }

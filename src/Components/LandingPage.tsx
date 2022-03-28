@@ -1,22 +1,21 @@
 import React from "react";
-import { ReactComponent as IconMenu } from "../Images/landing_image.svg"
-
+import { ReactComponent as IconMenu } from "../Images/landing_image.svg";
 
 const LandingPage = () => {
   return (
-    <section>
-      <div id = "landing-page" >
+    <section id="landing-page">
+      <div className="container">
         <div className="title">
           <h1> Welcome to my web-site</h1>
           <p>Here you can find informations about me and my knowledge </p>
           <button> Contact me </button>
         </div>
 
-        <div className="icon" >
-          <IconMenu className = "about-image"width = "70%" ></IconMenu>
+        <div className="landing-div-svg">
+          <IconMenu width="70%"></IconMenu>
         </div>
       </div>
-      <a href = "#about">
+      <a href="#about">
         <div className="arrowButton"></div>
       </a>
     </section>

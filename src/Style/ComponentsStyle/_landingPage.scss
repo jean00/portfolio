@@ -1,4 +1,4 @@
-#landing-page {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,10 +8,6 @@
     font-size: 2rem;
   }
 
-  .icon {
-    text-align: center;
-
-  }
   button {
     background-color: aquamarine;
     border: none;
@@ -24,5 +20,15 @@
 
   button:hover {
     opacity: 0.8;
+  }
+
+  .landing-div-svg {
+    text-align: center;
+  }
+
+  .arrowDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }

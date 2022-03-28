@@ -1,11 +1,19 @@
 #about {
-	div {
-		text-align: center;
-		font-size: 2rem;
-	}
+  .text {
+    text-align: center;
+    font-size: 3rem;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-top: 1%;
+    z-index: -1;
+  }
 
-	p {
-		line-height: 2;
-		text-align: center;
-	}
+  p {
+    margin-top: 40px;
+    line-height: 2.5;
+    text-align: justify;
+    margin-bottom: 5%;
+    font-size: 2rem;
+  }
 }
