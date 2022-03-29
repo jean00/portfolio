@@ -4,29 +4,30 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className="header">
-      <nav>
-        <h1>Jean </h1>
-        <ul>
-          <li>
-            <a href="#about"> About </a>
-          </li>
-          <li>
-            <a href="#projects"> Projects </a>
-          </li>
-          <li>
-            <a href="#skills"> Skills </a>
-          </li>
-          <li>
-            <a href="#contacts"> Contacts</a>
-          </li>
-        </ul>
-        <button onClick={() => setOpen(!open)}>
-          <FontAwesomeIcon icon={faBars} size="lg" />
-          {/* responsive */}
-        </button>
-      </nav>
-    </header>
+    <nav>
+      <h1>Jean </h1>
+      <ul>
+        <li>
+          <a href="#landing-page"> Home </a>
+        </li>
+        <li>
+          <a href="#about"> About </a>
+        </li>
+        <li>
+          <a href="#skills"> Skills </a>
+        </li>
+        <li>
+          <a href="#projects"> Projects </a>
+        </li>
+        <li>
+          <a href="#contacts"> Contacts</a>
+        </li>
+      </ul>
+      <button onClick={() => setOpen(!open)}>
+        <FontAwesomeIcon icon={faBars} size="lg" />
+        {/* responsive */}
+      </button>
+    </nav>
   );
 };
 

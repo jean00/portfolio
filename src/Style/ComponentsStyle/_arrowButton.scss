@@ -2,7 +2,7 @@
   height: 100px;
   width: 100px;
   border: none;
-  position: relative;
+  position: $position;
   bottom: 0;
   left: calc(50% + 57rem); //center the button
   cursor: pointer;

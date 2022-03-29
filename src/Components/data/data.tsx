@@ -74,14 +74,16 @@ export const projects: {
 
   {
     name: "Library",
-    description: "Library made using React and Material UI. Click on the gif to see more.",
+    description:
+      "Library made using React and Material UI. Click on the gif to see more.",
     url: "https://github.com/jean00/MUILibrary",
     gif: "https://user-images.githubusercontent.com/7188279/160483022-c4a1a62c-e954-4df8-a102-a3802666d858.gif",
   },
 
   {
     name: "MovieViewer",
-    description: "Moview viewer site made using React and Material UI. Click on the gif to see more.",
+    description:
+      "Moview viewer site made using React and Material UI. Click on the gif to see more.",
     url: "https://github.com/jean00/MoviesViewer",
     gif: "https://user-images.githubusercontent.com/7188279/160483922-018ae497-5b76-4e8e-9f9a-aee3438ad515.gif",
   },

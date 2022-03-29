@@ -8,7 +8,9 @@ const LandingPage = () => {
         <div className="title">
           <h1> Welcome to my web-site</h1>
           <p>Here you can find informations about me and my knowledge </p>
-          <button> Contact me </button>
+          <a href = "#contacts">
+            <button> Contact me </button>
+          </a>
         </div>
 
         <div className="landing-div-svg">

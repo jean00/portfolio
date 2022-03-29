@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 $textColor: #ffff;
-$bottom: -30px;
 $position: relative;
 
 //css reset
@@ -66,6 +65,9 @@ section {
 //contacts
 @import "ComponentsStyle/contacts";
 
+//footer
+@import "ComponentsStyle/footer";
+
 ul {
   list-style: none;
 }
@@ -73,5 +75,6 @@ ul {
 a {
   text-decoration: none;
   color: $textColor;
+  transition: 0.1s;
   -webkit-transition: color 0.1s;
 }

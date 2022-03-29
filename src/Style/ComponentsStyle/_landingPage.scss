@@ -3,17 +3,18 @@
   align-items: center;
   justify-content: space-between;
   padding: 10rem 10rem 0;
+  
   .title {
     width: 100%;
     font-size: 2rem;
   }
 
   button {
-    background-color: aquamarine;
+    background-color: #7fffd4;
     border: none;
     border-radius: 20px;
     margin-top: 20px;
-    width: 15%;
+    width: 8rem;
     height: 40px;
     cursor: pointer;
   }

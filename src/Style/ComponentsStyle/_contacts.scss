@@ -1,31 +1,60 @@
 #contacts {
-	h1 {
-			text-align: center;
-			font-size: 3rem;
-	}
+  @import "./common";
+  
+  h1 {
+    margin-bottom: 3%;
+  }
 
-	.content {
-		display: flex;
-		justify-content: center;
-		gap: 50px;
-	}
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
 
-	.location {
-	vertical-align: middle;
-	}
+  .divForm {
+    width: 40%;
+  }
 
-	.formDiv {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+  input {
+    display: block;
+    background-color: #474787;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 50px;
+    color: $textColor;
+  }
 
-	input {
-		display: block;
-		background-color: #474787;
-		border-radius: 2px;
-		border: none;
-		width: 500px;
-		height: 100px;
-	}
+  iframe {
+    border: none;
+  }
+  p {
+    margin-bottom: 2%;
+  }
+
+  textArea {
+    height: 200px;
+    width: 100%;
+    background-color: #474787;
+    border: none;
+    font-size: 1.5rem;
+    color: $textColor;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: #7575cf;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    opacity: 0.5;
+  }
 }
