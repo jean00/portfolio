@@ -10,7 +10,10 @@ const Skills = () => {
           return (
             <div className="item" key={index}>
               <div className="content-item">
-                <i> <img src={e.url} /> </i>
+                <i>
+                  {" "}
+                  <img src={e.url} />{" "}
+                </i>
                 <span>{e.name} </span>
               </div>
             </div>

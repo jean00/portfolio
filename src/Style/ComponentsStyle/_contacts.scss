@@ -1,0 +1,31 @@
+#contacts {
+	h1 {
+			text-align: center;
+			font-size: 3rem;
+	}
+
+	.content {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+	}
+
+	.location {
+	vertical-align: middle;
+	}
+
+	.formDiv {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	input {
+		display: block;
+		background-color: #474787;
+		border-radius: 2px;
+		border: none;
+		width: 500px;
+		height: 100px;
+	}
+}

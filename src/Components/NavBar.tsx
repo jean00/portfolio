@@ -12,13 +12,13 @@ const NavBar = () => {
             <a href="#about"> About </a>
           </li>
           <li>
-            <a href="#"> Projects </a>
+            <a href="#projects"> Projects </a>
           </li>
           <li>
-            <a href="#"> Skills </a>
+            <a href="#skills"> Skills </a>
           </li>
           <li>
-            <a href="#"> Contacts</a>
+            <a href="#contacts"> Contacts</a>
           </li>
         </ul>
         <button onClick={() => setOpen(!open)}>

@@ -1,6 +1,4 @@
-import Projects from "../Projects";
-
-export const skills:{name: string, url:string}[] = [
+export const skills: { name: string; url: string }[] = [
   {
     name: "HTML",
     url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -43,7 +41,7 @@ export const skills:{name: string, url:string}[] = [
 
   {
     name: "C++",
-    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+    url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
   },
 
   {
@@ -52,32 +50,39 @@ export const skills:{name: string, url:string}[] = [
   },
 ];
 
-export const projects:{name: string, description:string, url: string, gif:string}[] = [
+export const projects: {
+  name: string;
+  description: string;
+  url: string;
+  gif: string;
+}[] = [
   {
     name: "todolist",
-    description: "A todolist site made using vanilla javascript, html and css. See more on the link below",
-    url: "https://jean00.github.io/todolist/",
+    description:
+      "Todolist site made using vanilla JavaScript, HTML and CSS. Click on the gif to see more.",
+    url: "https://github.com/jean00/todolist",
     gif: "https://user-images.githubusercontent.com/7188279/160480616-86fc0e06-c636-450f-ac25-7eec1944ed78.gif",
   },
 
   {
     name: "WeatherApp",
-    description: "",
-    url: "https://jean00.github.io/WeatherApp/",
+    description:
+      "Weather site made using vanilla JavaScript, HTML and CSS. Click on the gif to see more.",
+    url: "https://github.com/jean00/WeatherApp",
     gif: "https://user-images.githubusercontent.com/7188279/160482080-b969d2fc-c169-4acf-92a5-624f09480f82.gif",
   },
 
   {
     name: "Library",
-    description: "",
-    url: "https://jean00.github.io/MUILibrary/",
+    description: "Library made using React and Material UI. Click on the gif to see more.",
+    url: "https://github.com/jean00/MUILibrary",
     gif: "https://user-images.githubusercontent.com/7188279/160483022-c4a1a62c-e954-4df8-a102-a3802666d858.gif",
   },
 
   {
     name: "MovieViewer",
-    description: "",
-    url: "https://jean00.github.io/MoviesViewer/",
+    description: "Moview viewer site made using React and Material UI. Click on the gif to see more.",
+    url: "https://github.com/jean00/MoviesViewer",
     gif: "https://user-images.githubusercontent.com/7188279/160483922-018ae497-5b76-4e8e-9f9a-aee3438ad515.gif",
   },
-]
+];
