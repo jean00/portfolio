@@ -1,5 +1,5 @@
 # Portfolio site
-
+[live site](https://jean00.github.io/portfolio/)
 This is my portfolio site where i will put my projects and more. In this project i used react js with TypeScript.
 
 NPM Packages used: 
