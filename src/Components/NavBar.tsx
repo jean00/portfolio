@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 const NavBar = () => {
-  const [open, setOpen] = useState(false);
   return (
     <nav>
       <h1>Jean </h1>
@@ -23,10 +21,6 @@ const NavBar = () => {
           <a href="#contacts"> Contacts</a>
         </li>
       </ul>
-      <button onClick={() => setOpen(!open)}>
-        <FontAwesomeIcon icon={faBars} size="lg" />
-        {/* responsive */}
-      </button>
     </nav>
   );
 };
