@@ -1,4 +1,4 @@
-# PortFolio site
+# Portfolio site
 
 This is my portfolio site where i will put my projects and more. In this project i used react js with TypeScript.
 
