@@ -1,4 +1,5 @@
 # Portfolio site
+
 [Live site](https://jean00.github.io/portfolio/) <br>
 This is my portfolio site where i will put my projects and more. In this project i used react js with TypeScript.
 
@@ -7,7 +8,8 @@ This is my portfolio site where i will put my projects and more. In this project
 
 Responsive functionality incoming!
 
-NPM Packages used: 
+NPM Packages used:
+
 - <a href = "https://eslint.org/"> Eslint </a> <br>
 - <a href = "https://prettier.io/"> Prettier </a> <br>
 - <a href = "https://www.emailjs.com/"> EmailJS </a> <br>

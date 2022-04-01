@@ -47,3 +47,9 @@
     top: 90%;
   }
 }
+
+@media (max-width: 700px) {
+  .arrowButton {
+    left: calc(50% + 12rem);
+  }
+}

@@ -1,5 +1,4 @@
 #about {
-
   @import "./common";
 
   .text {
@@ -16,5 +15,15 @@
     text-align: justify;
     margin-bottom: 5%;
     font-size: 2rem;
+  }
+
+  @media (max-width: 700px) {
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 1.6em;
+      line-height: 1.1;
+    }
   }
 }
