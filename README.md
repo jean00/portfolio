@@ -3,7 +3,7 @@
 This is my portfolio site where i will put my projects and more. In this project i used react js with TypeScript.
 
 <h1> Preview </h1>
-<img src = "https://user-images.githubusercontent.com/7188279/161061146-65e7b507-e891-4dd1-8a7e-ac211c87ef27.gif" width = 100%>
+<img src = "https://user-images.githubusercontent.com/7188279/161221231-b66669b9-6bed-468a-b3b0-b714ef09c0e6.gif" width = 100%>
 
 Responsive functionality incoming!
 
