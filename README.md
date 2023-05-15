@@ -22,7 +22,7 @@ This project showcases a captivating website built using React as the frontend f
 
 ## Demo
 
-You can explore a live demo of the website [here](https://your-website-demo-url).
+You can explore a live demo of the website [here](https://jean-webportfolio.netlify.app/).
 
 ## Installation
 
