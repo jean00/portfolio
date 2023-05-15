@@ -26,7 +26,6 @@ const Footer = () => {
       .fetch(query)
       .then((data) => {
         setPdf(data);
-        console.log(data);
       })
       .catch((err) => console.log(err));
   }, []);
